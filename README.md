@@ -7,6 +7,7 @@ Wanshi Antecedence Digital Intelligence Traffic Technology Co., Ltd, Nanjing, 21
 Abstract：Use energy-based model for bridge-type innovation. The loss function is explained by the game theory, the logic is clear and the formula is simple and clear. Thus avoid the use of maximum likelihood estimation to explain the loss function and eliminate the need for Monte Carlo methods to solve the normalized denominator. Assuming that the bridge-type population follows a Boltzmann distribution, a neural network is constructed to represent the energy function. Use Langevin dynamics technology to generate a new sample with low energy value, thus a generative model of bridge-type based on energy is established. Train energy function on symmetric structured image dataset of three span beam bridge, arch bridge, cable-stayed bridge, and suspension bridge to accurately calculate the energy values of real and fake samples. Sampling from latent space, using gradient descent algorithm, the energy function transforms the sampling points into low energy score samples, thereby generating new bridge types different from the dataset. Due to unstable and slow training in this attempt, the possibility of generating new bridge types is rare and the image definition of generated images is low.
 Keywords: generative artificial intelligence; bridge-type innovation; energy-based model; latent space; deep learning
 
+Based on the Python3.10, TensorFlow2.10, and Keras2.10
 
 从基于能量的模型隐空间中生成新桥型的尝试
 
